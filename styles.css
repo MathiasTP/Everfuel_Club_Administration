@@ -1,0 +1,80 @@
+body {
+  background-color: powderblue;
+}
+
+.navbar-custom {
+    background-color: #384454;
+}
+
+.container.container-rounded { 
+  border-radius: 30px;  
+  background-color: #FFFFFF;  
+ }
+
+ .navbar-dark .navbar-nav .nav-item {
+  color: red;
+}
+
+.custom-nav {
+  background-color:#384454;
+
+  height:70px;
+  font-size:20px;
+}
+
+.custom-nav .navbar-brand:hover,
+.custom-nav .navbar-brand:focus {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.custom-nav .navbar-nav > li > a {
+  color: #FFC132;
+  text-decoration: none;
+}
+
+.custom-nav .navbar-nav > li > a:hover,
+.custom-nav .navbar-nav > li > a:active,
+.custom-nav .navbar-nav > li > a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+.card-custom {
+  border: 1px solid;
+  border-color: #384454;
+  border-radius: 2%;
+  max-width: 40rem;
+}
+
+.custom-control-label:before{
+  background-color:red;
+  float: right;
+  align-content: center;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before{
+  background-color:black;
+  float: right;
+  align-content: center;
+}
+
+.btn-outline-primary{
+  background: #FFC132!important; 
+  color: white!important;
+  font-size: 15px!important;
+  font-weight:550!important;
+  border-width: 2px!important;
+  border-color: transparent!important;
+
+}
+
+
+.btn-outline-primary:hover {
+  color: black!important;
+  background-color: white!important;
+  border-color: #FFC132!important;
+  border-width: 2px!important;
+}
+
+
+
